@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #36496B;
+}
+.App{
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 40%;
+    width: 18vw;
+    padding: 10vh;
+    flex-direction: column;
+    background: #a52a2a;
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.App input{
+    margin: 2vh 0 2vh 0;
+    border-radius: 10px;
+    border: none;
+    padding: 1vh;
+}
+.App label{
+    font-size: 3em;
+}
+.App div{
+    margin-top: 2vh;
+}
+.App button{
+    font-size: 20px;
+    padding: 1vh;
+    border: none;
+    border-radius: 10px;
+    background: #7B386C;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
